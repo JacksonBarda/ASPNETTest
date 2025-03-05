@@ -1,0 +1,6 @@
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: radial-gradient(circle, rgba(255, 0, 0, 0.4), rgba(255, 255, 255, 0));
+}

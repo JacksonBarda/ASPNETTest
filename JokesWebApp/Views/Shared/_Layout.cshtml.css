@@ -12,7 +12,7 @@ a {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #813636;
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
@@ -31,7 +31,7 @@ a {
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 1.25rem 1.75rem rgba(222, 10, 10, 0.1);
 }
 
 button.accept-policy {
@@ -45,4 +45,17 @@ button.accept-policy {
   width: 100%;
   white-space: nowrap;
   line-height: 60px;
+}
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+  flex-direction: column;
 }

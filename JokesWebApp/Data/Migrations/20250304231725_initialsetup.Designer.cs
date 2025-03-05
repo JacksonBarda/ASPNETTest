@@ -33,11 +33,11 @@ namespace JokesWebApp.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("JokeAnswer")
-                        .HasColumnType("int");
+                    b.Property<String>("JokeAnswer")
+                        .HasColumnType("String");
 
-                    b.Property<int>("JokeQuestion")
-                        .HasColumnType("int");
+                    b.Property<String>("JokeQuestion")
+                        .HasColumnType("String");
 
                     b.HasKey("Id");
 
