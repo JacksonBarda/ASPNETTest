@@ -14,10 +14,10 @@ namespace JokesWebApp.Data.Migrations
                 name: "Joke",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    JokeQuestion = table.Column<int>(type: "int", nullable: false),
-                    JokeAnswer = table.Column<int>(type: "int", nullable: false)
+                    JokeQuestion = table.Column<string>(nullable: false),
+                    JokeAnswer = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
