@@ -1,6 +1,35 @@
-.row{
+h4{
     display: flex;
     justify-content: center;
     width: 100%;
-    background: radial-gradient(circle, rgba(255, 0, 0, 0.4), rgba(255, 255, 255, 0));
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+#SearchPhrase{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+#searchForm{
+    display: flex;
+    justify-content: center;
+    width:50%;
+    padding: 10px 0px;
+    
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(72, 62, 219, 0.669), rgba(6, 6, 6, 0.071));
 }
